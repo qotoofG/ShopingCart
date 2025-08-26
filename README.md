@@ -37,30 +37,31 @@ Before running the project, make sure you have:
 git clone https://github.com/qotoofG/ShopingCart.git
 cd ShopingCart
 
-2. **Install dependencies**
+2.Install dependencies
 
-```bash
 flutter pub get
 
-3. **Configure Firebase**
+
+3.Configure Firebase
 
 # 1. Create a Firebase project
 # 2. Add Android/iOS apps
 # 3. Download `google-services.json` (Android) or `GoogleService-Info.plist` (iOS)
 # 4. Place the files in the respective directories
 
-3. **Run the app**
 
-```bash
+4.Run the app
+
 flutter run
 ----
-## Note
+
+### **Note**
 
 This project is for training purposes, so Stripe uses test keys only.
 Firebase is used for basic authentication and storing user info.
 All sensitive keys should be replaced with dummy/test values before pushing to public repos.
+----
 
-## License
-
+### **License**
 This project is open source and available for learning purposes.
 
