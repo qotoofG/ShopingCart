@@ -1,67 +1,72 @@
-# 🛒 ShopingCart – Flutter E-commerce Application
+# 🛒 ShoppingCart – Flutter E-commerce Application
 
-A **feature-rich e-commerce mobile app** built with **Flutter**, using **Firebase** for authentication and database, and **Stripe** for card payments.  
-The app follows the **MVC (Model-View-Controller)** architecture for clean code separation and maintainable code.
+A **feature-rich e-commerce mobile app** built with **Flutter**, leveraging **Firebase** for authentication and database management, and **Stripe** for secure card payments.  
+The app follows the **MVC (Model-View-Controller)** architecture, ensuring clean code separation and maintainability.
 
 ---
 
 ## ✨ Features
 
-- **User Authentication:** Sign up and login securely using **Firebase**.  
-- **User Database:** Store and manage user data using **Firebase Firestore**.  
-- **Product Management:** View and manage products in the store.  
-- **Shopping Cart:** Add, remove, and update items in the cart.  
-- **Stripe Payments:** Secure card payments (test keys used).  
-- **MVC Architecture:** Organized codebase for scalability and maintainability.
+- **User Authentication:** Secure sign up and login using **Firebase**  
+- **User Database:** Store and manage user data with **Firebase Firestore**  
+- **Product Management:** View and manage products in the store  
+- **Shopping Cart:** Add, remove, and update items in the cart  
+- **Stripe Payments:** Integrated card payments using Stripe (test keys)  
+- **MVC Architecture:** Organized codebase for scalability and maintainability
 
 ---
 
 ## 🛠️ Getting Started
 
-### **Prerequisites**
+### Prerequisites
 
-Before running the project, make sure you have:
+Before running the project, ensure you have:
 
 - **Flutter SDK** installed  
 - **Dart SDK** installed  
-- A **Firebase project** setup  
-- **Stripe test keys** (replace with your own)  
+- A configured **Firebase project**  
+- **Stripe test keys** (replace with your own)
 
 ---
 
-### **Installation**
+### Installation
 
 1. **Clone the repository**
 
-```bash
-git clone https://github.com/qotoofG/ShopingCart.git
-cd ShopingCart
+    ```bash
+    git clone https://github.com/qotoofG/ShopingCart.git
+    cd ShopingCart
+    ```
 
-2.Install dependencies
+2. **Install dependencies**
 
-flutter pub get
+    ```bash
+    flutter pub get
+    ```
 
+3. **Configure Firebase**
 
-3.Configure Firebase
+    - Create a Firebase project
+    - Add your Android/iOS apps in Firebase Console
+    - Download `google-services.json` (Android) and/or `GoogleService-Info.plist` (iOS)
+    - Place the files in the appropriate platform directories
 
-# 1. Create a Firebase project
-# 2. Add Android/iOS apps
-# 3. Download `google-services.json` (Android) or `GoogleService-Info.plist` (iOS)
-# 4. Place the files in the respective directories
+4. **Run the app**
 
+    ```bash
+    flutter run
+    ```
 
-4.Run the app
+---
 
-flutter run
-----
+### Note
 
-### **Note**
+- This project is intended for training purposes; Stripe uses test keys only.
+- Firebase is used for basic authentication and user data storage.
+- **Do not include sensitive/production keys in public repositories**—use test or dummy values.
 
-This project is for training purposes, so Stripe uses test keys only.
-Firebase is used for basic authentication and storing user info.
-All sensitive keys should be replaced with dummy/test values before pushing to public repos.
-----
+---
 
-### **License**
-This project is open source and available for learning purposes.
+## 📄 License
 
+This project is open source and available for learning and educational use.
